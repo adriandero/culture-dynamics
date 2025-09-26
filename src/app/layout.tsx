@@ -9,8 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen flex pt-15 justify-center bg-base-200">
-        <div className="p-6">{children}</div>
+      <body className="h-screen w-screen w-full justify-center flex bg-base-100">
+        {children}
       </body>
       <FlyonuiScript />
     </html>

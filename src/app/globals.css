@@ -1,7 +1,46 @@
 @import "tailwindcss";
-@plugin "flyonui"{
-    themes: all;
+
+@plugin "flyonui" {
+    themes: light;
 }
 @import "flyonui/variants.css";
 @source "../../node_modules/flyonui/flyonui.js";
 @plugin "@iconify/tailwind4";
+
+@plugin "flyonui/theme" {
+    name: "light";
+    default: true;
+    /* Primary - Your signature red */
+    --color-primary: #F00E0E;
+    --color-primary-content: #FFFFFF;
+
+    /* Secondary - Deep charcoal for sophistication */
+    --color-secondary: #1A1A1A;
+    --color-secondary-content: #FFFFFF;
+
+    /* Accent - Warm amber for highlights and CTAs */
+    --color-accent: #FF8C00;
+    --color-accent-content: #FFFFFF;
+
+    /* Neutral - Professional slate gray */
+    --color-neutral: #64748B;
+    --color-neutral-content: #FFFFFF;
+
+    /* Base Colors - Clean backgrounds */
+    --color-base-100: #FFFFFF;        /* Pure white backgrounds */
+    --color-base-200: #F8FAFC;        /* Very light gray sections */
+    --color-base-300: #E2E8F0;        /* Light gray for borders/shadows */
+    --color-base-content: #1E293B;    /* Dark text on light backgrounds */
+    /* Status Colors - Harmonious with your palette */
+    --color-info: #3B82F6;            /* Blue for information */
+    --color-info-content: #FFFFFF;
+
+    --color-success: #10B981;         /* Green for success */
+    --color-success-content: #FFFFFF;
+
+    --color-warning: #F59E0B;         /* Amber for warnings */
+    --color-warning-content: #1F2937;
+
+    --color-error: #DC2626;           /* Slightly darker red for errors */
+    --color-error-content: #FFFFFF;
+}
