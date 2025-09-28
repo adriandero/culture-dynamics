@@ -44,3 +44,7 @@
     --color-error: #DC2626;           /* Slightly darker red for errors */
     --color-error-content: #FFFFFF;
 }
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
 
@@ -7,13 +8,23 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
                 <div className="flex items-center justify-between gap-3 max-md:flex-col">
                     <div className="text-base-content flex items-center gap-2 text-xl font-bold">
-                        <Image src="/culture-dynamics-logo.png" width={200} height={200} className="size-8 w-full" alt="brand-logo"/>
+                        <Image src="/culture-dynamics-logo.png" width={200} height={200} className="size-8 w-full"
+                               alt="brand-logo"/>
                     </div>
                     <div className={"flex md:flex-row flex-col gap-5 md:gap-8 items-center"}>
                         <nav className="flex items-center gap-6">
-                            <a href="#" className="link link-animated text-base-content/80 font-medium">Projects</a>
-                            <a href="#" className="link link-animated text-base-content/80 font-medium">About Us</a>
-                            <a href="#" className="link link-animated text-base-content/80 font-medium">Contacts</a>
+
+
+                            <Link href="/"
+                                  className="link link-animated text-base-content/80 font-medium">Home</Link>
+                            <Link href="/#about"
+                                  className="link link-animated text-base-content/80 font-medium">About Us</Link>
+                            <Link href="/#work-together"
+                                  className="link link-animated text-base-content/80 font-medium">Workshops</Link>
+                            <Link href="/#projects"
+                                  className="link link-animated text-base-content/80 font-medium">Projects</Link>
+                            <Link href="/#contacts"
+                                  className="link link-animated text-base-content/80 font-medium">Contacts</Link>
                         </nav>
                         <div className="divider divider-horizontal"></div>
                         <div className="text-base-content flex h-5 gap-4">

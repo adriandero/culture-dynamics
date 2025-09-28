@@ -41,11 +41,15 @@ export default function NavbarLight() {
                         <div
                             className="text-base-content text-black flex gap-6 text-base font-medium max-lg:mt-4 max-lg:flex-col lg:items-center lg:gap-16"
                         >
-                            <Link href="/" className="hover:text-primary ">Home</Link>
-                            <Link href="/#about" className="hover:text-primary">About Us</Link>
-                            <Link href="/#projects" className="hover:text-primary ">Projects</Link>
-                            <Link href="/#work-together" className="hover:text-primary ">Workshops</Link>
-                            <Link href="/#contacts" className="hover:text-primary">Contacts</Link>
+                            <Link href="/" className="link link-animated text-black hover:text-black ">Home</Link>
+                            <Link href="/#about" className="link link-animated  text-black hover:text-black">About
+                                Us</Link>
+                            <Link href="/#projects"
+                                  className="link link-animated text-black hover:text-black">Projects</Link>
+                            <Link href="/#work-together"
+                                  className="link link-animated  text-black hover:text-black">Workshops</Link>
+                            <Link href="/#contacts"
+                                  className="link link-animated text-black hover:text-black">Contacts</Link>
                         </div>
                     </div>
                 </div>

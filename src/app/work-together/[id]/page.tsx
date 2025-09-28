@@ -2,26 +2,28 @@ import Link from "next/link";
 import workshops from "@/features/shared/data/workshops";
 import NavbarLight from "@/components/layout/navbar-light";
 import Image from "next/image";
+import Footer from "@/components/layout/footer";
+import React from "react";
 
 type WorkshopDetailsPageProps = {
     params: Promise<{ id: string }>;
 };
 
 export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageProps) {
-    const { id } = await params;
+    const {id} = await params;
     const workshop = workshops.find((w) => w.id === parseInt(id));
 
     if (!workshop) {
         return (
-            <div className="min-h-screen w-full">
+            <div className="min-h-[80vh] w-full">
                 <NavbarLight/>
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                <div className="max-w-4xl h-full flex justify-center items-center mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center">
                         <h1 className="text-2xl font-bold text-gray-900 mb-4">
                             Dieser workshop konnte leider nicht gefunden werden
                         </h1>
                         <Link
-                            href="/"
+                            href="/#work-together"
                             className="inline-flex items-center text-gray-600 hover:text-red-600 transition-colors "
                         >
                             <svg
@@ -41,6 +43,8 @@ export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageP
                         </Link>
                     </div>
                 </div>
+                <Footer></Footer>
+
             </div>
         );
     }
@@ -165,6 +169,7 @@ export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageP
 
                 </div>
             </div>
+            <Footer></Footer>
 
         </div>
     );

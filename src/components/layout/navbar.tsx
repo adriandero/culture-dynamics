@@ -43,11 +43,11 @@ export default function Navbar() {
                         >
 
 
-                            <Link href="/" className="hover:text-primary ">Home</Link>
-                            <Link href="/#about" className="hover:text-primary">About Us</Link>
-                            <Link href="/#projects" className="hover:text-primary ">Projects</Link>
-                            <Link href="/#work-together" className="hover:text-primary ">Workshops</Link>
-                            <Link href="/#contacts" className="hover:text-primary">Contacts</Link>
+                            <Link href="/" className="link link-animated text-white hover:text-white">Home</Link>
+                            <Link href="/#about" className="link link-animated text-white hover:text-white">About Us</Link>
+                            <Link href="/#projects" className="link link-animated text-white hover:text-white">Projects</Link>
+                            <Link href="/#work-together" className="link link-animated text-white hover:text-white">Workshops</Link>
+                            <Link href="/#contacts" className="link link-animated text-white hover:text-white">Contacts</Link>
                         </div>
                     </div>
                 </div>
