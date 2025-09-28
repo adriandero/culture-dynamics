@@ -2,7 +2,7 @@ const workshops = [
     {
         id: 1,
         title: "Kulturelle Vielfalt Workshop",
-        image: "https://cdn.flyonui.com/fy-assets/components/carousel/image-21.png",
+        image: "/project-default.png",
         descriptions: [
             "Entdecken Sie die <strong>reiche kulturelle Landschaft</strong> Österreichs in diesem interaktiven Workshop. Wir erkunden gemeinsam die vielfältigen Traditionen, Sprachen und Ausdrucksformen der verschiedenen Volksgruppen.",
             "Durch <strong>praktische Übungen, Diskussionen und kreative Aktivitäten</strong> fördern wir das Verständnis für kulturelle Diversität und schaffen Räume für authentischen Austausch zwischen den Teilnehmenden.",
@@ -18,7 +18,7 @@ const workshops = [
     {
         id: 2,
         title: "Sprachliche Diversität Seminar",
-        image: "https://cdn.flyonui.com/fy-assets/components/carousel/image-14.png",
+        image: "/project-default.png",
         descriptions: [
             "Tauchen Sie ein in die <strong>sprachliche Vielfalt Wiens</strong> und entdecken Sie, wie verschiedene Sprachen unsere kulturelle Identität prägen und bereichern.",
             "Von Wiener Mundart bis zu den Sprachen der Volksgruppen – wir erkunden <strong>linguistische Landschaften</strong> und ihre Bedeutung für das gesellschaftliche Zusammenleben.",
@@ -34,7 +34,7 @@ const workshops = [
     {
         id: 3,
         title: "Kreative Kulturprojekte",
-        image: "https://cdn.flyonui.com/fy-assets/components/carousel/image-7.png",
+        image: "/project-default.png",
         descriptions: [
             "Entwickeln Sie eigene <strong>Kulturprojekte mit gesellschaftspolitischem Anspruch</strong> und lernen Sie, wie Kunst als Katalysator für sozialen Dialog funktioniert.",
             "Durch <strong>praktische Projektarbeit und Ideenentwicklung</strong> entstehen konkrete Konzepte für kulturelle Initiativen, die zum gesellschaftlichen Diskurs beitragen.",
@@ -50,7 +50,7 @@ const workshops = [
     {
         id: 4,
         title: "Internationale Vernetzung",
-        image: "https://cdn.flyonui.com/fy-assets/components/carousel/image-21.png",
+        image: "/project-default.png",
         descriptions: [
             "Bauen Sie <strong>internationale Netzwerke</strong> auf und lernen Sie Strategien für erfolgreiche Kooperationen im Kulturbereich kennen.",
             "Praktische Tipps für <strong>grenzüberschreitende Projekte</strong> und nachhaltigen Austausch zwischen Kulturschaffenden verschiedener Länder.",
@@ -66,7 +66,7 @@ const workshops = [
     {
         id: 5,
         title: "Nachwuchsförderung",
-        image: "https://cdn.flyonui.com/fy-assets/components/carousel/image-14.png",
+        image: "/project-default.png",
         descriptions: [
             "Erfahren Sie, wie junge Talente <strong>gezielt gefördert</strong> und in den kulturellen Diskurs integriert werden können.",
             "Mentoring-Techniken und <strong>Empowerment-Strategien</strong> für die nächste Generation von Kulturschaffenden.",

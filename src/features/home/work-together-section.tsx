@@ -2,9 +2,9 @@
 
 import React, {useState} from "react";
 import {Parallax} from "react-scroll-parallax";
-import Image from "next/image";
 import Link from "next/link";
 import workshops from "@/features/shared/data/workshops"
+import Image from "next/image";
 
 export default function WorkTogetherSection() {
     const [activeWorkshop, setActiveWorkshop] = useState(0);
@@ -34,12 +34,14 @@ export default function WorkTogetherSection() {
                                     <div
                                         className="w-24 h-80 flex flex-col gap-2 overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2">
                                         {workshops.map((workshop, index) => (
-                                            <img
+                                            <Image
                                                 key={workshop.id}
                                                 src={workshop.image}
                                                 className={`w-full h-16 object-cover rounded-lg cursor-pointer transition-opacity ${
                                                     activeWorkshop === index ? 'opacity-100  ' : 'opacity-30 hover:opacity-60'
                                                 }`}
+                                                width={200}
+                                                height={200}
                                                 alt={workshop.title}
                                                 onClick={() => setActiveWorkshop(index)}
                                             />
@@ -50,9 +52,11 @@ export default function WorkTogetherSection() {
                                 {/* Main Image Display */}
                                 <div className="relative flex-1 overflow-hidden rounded-2xl ">
                                     <div className="h-80">
-                                        <img
+                                        <Image
                                             src={workshops[activeWorkshop].image}
                                             className="w-full h-full object-cover"
+                                            width={200}
+                                            height={200}
                                             alt={workshops[activeWorkshop].title}
                                         />
                                     </div>

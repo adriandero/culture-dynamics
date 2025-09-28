@@ -1,38 +1,41 @@
-import Navbar from "@/components/layout/navbar";
 import Link from "next/link";
 import workshops from "@/features/shared/data/workshops";
 import NavbarLight from "@/components/layout/navbar-light";
+import Image from "next/image";
 
-interface WorkshopDetailsPageProps {
-    params: {
-        id: string;
-    };
-}
+type WorkshopDetailsPageProps = {
+    params: Promise<{ id: string }>;
+};
 
-export default function WorkshopDetailsPage({
-                                                params,
-                                            }: WorkshopDetailsPageProps) {
+export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageProps) {
+    const { id } = await params;
+    const workshop = workshops.find((w) => w.id === parseInt(id));
 
-    // Find workshop by ID
-    const workshop = workshops.find(w => w.id === parseInt(params.id));
-
-    // Handle workshop not found
     if (!workshop) {
         return (
             <div className="min-h-screen w-full">
                 <NavbarLight/>
-
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center">
-                        <h1 className="text-2xl font-bold text-gray-900 mb-4">Dieser workshop konnte leider nicht
-                            gefunden werden</h1>
-
+                        <h1 className="text-2xl font-bold text-gray-900 mb-4">
+                            Dieser workshop konnte leider nicht gefunden werden
+                        </h1>
                         <Link
                             href="/"
                             className="inline-flex items-center text-gray-600 hover:text-red-600 transition-colors "
                         >
-                            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7"/>
+                            <svg
+                                className="w-5 h-5 mr-2"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M15 19l-7-7 7-7"
+                                />
                             </svg>
                             Zurück zu den workshops
                         </Link>
@@ -65,10 +68,12 @@ export default function WorkshopDetailsPage({
 
                     {/* Image */}
                     <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden">
-                        <img
+                        <Image
                             src={workshop.image}
                             alt={workshop.title}
                             className="w-full h-full object-cover"
+                            width={800}
+                            height={600}
                         />
                     </div>
 

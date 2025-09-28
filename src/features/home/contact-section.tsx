@@ -14,10 +14,10 @@ export default function ContactSection() {
     const [formStatus, setFormStatus] = useState({
         isSubmitting: false,
         message: '',
-        type: '' // 'success' or 'error'
+        type: ''
     });
 
-    const handleInputChange = (e) => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const {name, value} = e.target;
         setFormData(prev => ({
             ...prev,
@@ -34,7 +34,7 @@ export default function ContactSection() {
         });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setFormStatus({isSubmitting: true, message: '', type: ''});
 
@@ -58,7 +58,8 @@ export default function ContactSection() {
             } else {
                 throw new Error('Fehler beim Senden der Nachricht');
             }
-        } catch (error) {
+        } catch (e) {
+            console.log(e);
             setFormStatus({
                 isSubmitting: false,
                 message: 'Es gab ein Problem beim Senden Ihrer Nachricht. Bitte versuchen Sie es später erneut.',
