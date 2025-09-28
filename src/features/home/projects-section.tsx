@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function ProjectsSection() {
     return (
-        <section id="projects" className="min-h-screen bg-gray-50 py-16 lg:py-24">
+        <section id="projects" className="min-h-[80vh] bg-gray-50 py-16 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Section Title */}
                 <Parallax speed={2} className="text-center mb-16">
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-black mb-4 leading-tight font-thin">
-                        Unsere <span className="text-red-600">Projekte</span>
+                        Das ist Culture <span className="text-red-600">Dynamics</span>
                     </h2>
                     <div className="w-24 h-0.5 bg-red-600 mx-auto rounded-full"></div>
                 </Parallax>
