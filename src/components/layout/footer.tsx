@@ -18,13 +18,13 @@ export default function Footer() {
                             <Link href="/"
                                   className="link link-animated text-base-content/80 font-medium">Home</Link>
                             <Link href="/#about"
-                                  className="link link-animated text-base-content/80 font-medium">About Us</Link>
+                                  className="link link-animated text-base-content/80 font-medium">Über uns</Link>
                             <Link href="/#work-together"
                                   className="link link-animated text-base-content/80 font-medium">Workshops</Link>
                             <Link href="/#projects"
-                                  className="link link-animated text-base-content/80 font-medium">Projects</Link>
-                            <Link href="/#contacts"
-                                  className="link link-animated text-base-content/80 font-medium">Contacts</Link>
+                                  className="link link-animated text-base-content/80 font-medium">Projekte</Link>
+                            <Link href="/#contact"
+                                  className="link link-animated text-base-content/80 font-medium">Kontakt</Link>
                         </nav>
                         <div className="divider divider-horizontal"></div>
                         <div className="text-base-content flex h-5 gap-4">
@@ -36,6 +36,9 @@ export default function Footer() {
                             </a>
                             <a href="#" aria-label="Twitter">
                                 <span className="icon-[tabler--brand-x] size-5"></span>
+                            </a>
+                            <a href="#" aria-label="LinkedIn">
+                                <span className="icon-[tabler--brand-linkedin] size-5"></span>
                             </a>
 
                             <div className="lg:hidden divider divider-horizontal"></div>

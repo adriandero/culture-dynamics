@@ -2,6 +2,17 @@ import "./globals.css";
 
 import FlyonuiScript from "../components/FlyonuiScript";
 import {Providers} from "@/app/providers";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Culture Dynamics",
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/icon.png",
+        apple: "/icon.png",
+    },
+};
+
 
 export default function RootLayout({
                                        children,

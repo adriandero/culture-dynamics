@@ -14,8 +14,8 @@ export default function AboutSection() {
                 <div className="text-center">
 
                     {/* Logo */}
-                    <Parallax speed={4} className="mb-12">
-                        <div className="flex justify-center mb-8">
+                    <Parallax speed={4} >
+                        <div className="flex md:mb-12 mb-0 md:mt-0 mt-18 justify-center">
                             <Image
                                 src={logo}
                                 alt="Culture Dynamics Logo"

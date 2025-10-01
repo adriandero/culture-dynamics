@@ -44,10 +44,10 @@ export default function Navbar() {
 
 
                             <Link href="/" className="link link-animated text-white hover:text-white">Home</Link>
-                            <Link href="/#about" className="link link-animated text-white hover:text-white">About Us</Link>
-                            <Link href="/#projects" className="link link-animated text-white hover:text-white">Projects</Link>
+                            <Link href="/#about" className="link link-animated text-white hover:text-white">Über uns</Link>
+                            <Link href="/#projects" className="link link-animated text-white hover:text-white">Projekte</Link>
                             <Link href="/#work-together" className="link link-animated text-white hover:text-white">Workshops</Link>
-                            <Link href="/#contacts" className="link link-animated text-white hover:text-white">Contacts</Link>
+                            <Link href="/#contact" className="link link-animated text-white hover:text-white">Kontakt</Link>
                         </div>
                     </div>
                 </div>
