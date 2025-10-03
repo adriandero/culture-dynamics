@@ -3,6 +3,8 @@
 import React from "react";
 import {Parallax} from "react-scroll-parallax";
 import Image from "next/image";
+import Link from "next/link";
+import projects from "@/features/shared/data/projects";
 
 export default function ProjectsSection() {
     return (
@@ -24,72 +26,42 @@ export default function ProjectsSection() {
                         <div className="carousel">
                             <div className="carousel-body h-full relative opacity-0">
 
-                                {/* GLAS Project */}
-                                <div className="carousel-slide h-80 lg:h-96">
-                                    <div className="relative h-full w-full rounded-2xl overflow-hidden">
-                                        <Image
-                                            src="/glas-group.png"
-                                            alt="Vokalensemble GLAS"
-                                            fill
-                                            className="object-cover"
-                                            priority
-                                        />
-                                        <div className="absolute inset-0 bg-black/40 flex items-end">
-                                            <div className="p-6 w-full">
-                                                <h3 className="text-white text-xl sm:text-2xl font-medium mb-2">
-                                                    Vokalensemble GLAS
-                                                </h3>
-                                                <p className="text-gray-200 text-sm sm:text-base font-light">
-                                                    Stimmen aus Südosteuropa im Herzen Wiens
-                                                </p>
+                                {projects.map((project) => (
+                                    <div key={project.id} className="carousel-slide h-80 lg:h-96">
+                                        <Link
+                                            href={`/projects/${project.id}`}
+                                            className="block relative h-full w-full rounded-2xl overflow-hidden group"
+                                        >
+                                            <Image
+                                                src={project.image}
+                                                alt={project.title}
+                                                fill
+                                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                                priority={project.id === 1}
+                                            />
+                                            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300 flex items-end">
+                                                <div className="p-6 w-full flex items-end justify-between">
+                                                    <div className="flex-1">
+                                                        <h3 className="text-white text-xl sm:text-2xl font-medium mb-2">
+                                                            {project.title}
+                                                        </h3>
+                                                        <p className="text-gray-200 text-sm sm:text-base font-light">
+                                                            {project.subtitle}
+                                                        </p>
+                                                    </div>
+                                                    <div className="ml-4 flex-shrink-0">
+                                                        <div className="inline-flex items-center text-white hover:text-red-400 transition-colors backdrop-blur-sm bg-black/20 px-4 py-2 rounded-lg">
+                                                            Mehr erfahren
+                                                            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
                                     </div>
-                                </div>
-
-                                {/* VOX Slavena Chor Project */}
-                                <div className="carousel-slide h-80 lg:h-96">
-                                    <div className="relative h-full w-full rounded-2xl overflow-hidden">
-                                        <Image
-                                            src="/slavena-chor.png"
-                                            alt="VOX Slavena Chor"
-                                            fill
-                                            className="object-cover"
-                                        />
-                                        <div className="absolute inset-0 bg-black/40 flex items-end">
-                                            <div className="p-6 w-full">
-                                                <h3 className="text-white text-xl sm:text-2xl font-medium mb-2">
-                                                    VOX Slavena Chor
-                                                </h3>
-                                                <p className="text-gray-200 text-sm sm:text-base font-light">
-                                                    Ein neuer Klang Wiens
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* TANZBODEN Project */}
-                                <div className="carousel-slide h-80 lg:h-96">
-                                    <div className="relative h-full w-full rounded-2xl overflow-hidden">
-                                        <Image
-                                            src="/tanzboden.png"
-                                            alt="TANZBODEN"
-                                            fill
-                                            className="object-cover"
-                                        />
-                                        <div className="absolute inset-0 bg-black/40 flex items-end">
-                                            <div className="p-6 w-full">
-                                                <h3 className="text-white text-xl sm:text-2xl font-medium mb-2">
-                                                    T A N Z B O D E N
-                                                </h3>
-                                                <p className="text-gray-200 text-sm sm:text-base font-light">
-                                                    Dieses ist ein Herzenswunsch
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                ))}
 
                             </div>
                         </div>

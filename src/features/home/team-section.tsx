@@ -7,6 +7,7 @@ import natasa from "@/../public/team/natasa.png"
 import alena from "@/../public/team/alena.png"
 import sofija from "@/../public/team/sofija.png"
 import vedrana from "@/../public/team/vedrana.png"
+import Link from "next/link";
 
 export default function TeamSection() {
     return (
@@ -26,26 +27,32 @@ export default function TeamSection() {
                     <div className="flex flex-wrap justify-center gap-8 lg:gap-12">
 
                         {/* Nataša Mirković */}
-                        <div className="flex flex-col items-center text-center flex-shrink-0 group">
-                            <div className="mb-6 group-hover:scale-105 transition-transform duration-300">
-                                <div
-                                    className="w-48 h-48 rounded-2xl overflow-hidden bg-gray-200    ">
-                                    <Image
-                                        src={natasa}
-                                        alt="Mag.art. Nataša Mirković"
-                                        className="w-full h-full object-cover"
-                                    />
+                        <Link
+                            href="http://www.natasa-mirkovic.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cursor-pointer"
+                        >
+                            <div className="flex flex-col items-center text-center flex-shrink-0 group">
+                                <div className="mb-6 group-hover:scale-105 transition-transform duration-300">
+                                    <div className="w-48 h-48 rounded-2xl overflow-hidden bg-gray-200">
+                                        <Image
+                                            src={natasa}
+                                            alt="Mag.art. Nataša Mirković"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="group-hover:translate-y-2 transition-transform duration-300">
+                                    <h3 className="text-lg font-medium text-black mb-2">Mag.art. NATAŠA MIRKOVIĆ</h3>
+                                    <p className="text-sm text-gray-600 font-light leading-relaxed">
+                                        Gründerin<br/>
+                                        Künstlerische Leitung<br/>
+                                        Projektleitung
+                                    </p>
                                 </div>
                             </div>
-                            <div className="group-hover:translate-y-2 transition-transform duration-300">
-                                <h3 className="text-lg font-medium text-black mb-2">Mag.art. NATAŠA MIRKOVIĆ</h3>
-                                <p className="text-sm text-gray-600 font-light leading-relaxed">
-                                    Gründerin<br/>
-                                    Künstlerische Leitung<br/>
-                                    Projektleitung
-                                </p>
-                            </div>
-                        </div>
+                        </Link>
 
                         {/* Alena Bukvić */}
                         <div className="flex flex-col items-center text-center flex-shrink-0 group">

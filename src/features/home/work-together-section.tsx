@@ -79,7 +79,7 @@ export default function WorkTogetherSection() {
                                 </div>
 
                                 <div className="space-y-6">
-                                    {workshops[activeWorkshop].descriptions.map((description, index) => (
+                                    {workshops[activeWorkshop].shortDescription.map((description, index) => (
                                         <div
                                             key={index}
                                             className={`rounded-xl `}
