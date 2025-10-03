@@ -76,10 +76,10 @@ export default async function ProjectDetailsPage({params}: ProjectDetailsPagePro
 
                         {/* Titel unten */}
                         <div className="space-y-4">
-                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white">
+                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-thin text-white">
                                 {project.title}
                             </h1>
-                            <div className="w-32 h-1 bg-red-600 rounded-full"></div>
+                            <div className="w-32 h-0.5 bg-red-600 rounded-full"></div>
                         </div>
                     </div>
                 </div>
