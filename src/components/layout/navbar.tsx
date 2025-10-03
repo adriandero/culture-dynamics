@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="w-full px-4 py-4 sm:px-6 lg:flex lg:items-end lg:gap-2 lg:px-8">
                 <div className="navbar-start items-center justify-between max-lg:w-full">
                     <a className="text-base-content flex items-center gap-3 text-xl font-bold lg:hidden" href="#">
-                        <Image src={logo} className="size-8 w-full" alt="brand-logo"/>
+                        <Image src={logo} className="h-8 w-auto object-contain" alt="brand-logo"/>
 
                     </a>
 
@@ -35,7 +35,7 @@ export default function Navbar() {
                     >
                         <a className="text-base-content flex items-center gap-3 text-xl font-bold max-lg:hidden"
                            href="#">
-                            <Image src={logo} className="size-8 w-full" alt="brand-logo"/>
+                            <Image src={logo} className="h-8 w-auto object-contain" alt="brand-logo"/>
 
                         </a>
                         <div

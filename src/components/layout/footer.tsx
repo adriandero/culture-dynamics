@@ -8,7 +8,8 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
                 <div className="flex items-center justify-between gap-3 max-lg:flex-col">
                     <div className="text-base-content flex items-center gap-2 text-xl font-bold">
-                        <Image src="/culture-dynamics-logo.png" width={200} height={200} className="size-8 w-full"
+                        <Image src="/culture-dynamics-logo.png" width={200} height={200}
+                               className="h-8 w-auto object-contain"
                                alt="brand-logo"/>
                     </div>
                     <div className={"flex lg:flex-row flex-col gap-5 lg:gap-8 items-center"}>
