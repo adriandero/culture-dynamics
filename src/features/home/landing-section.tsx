@@ -23,7 +23,7 @@ export default function LandingSection() {
                             <br/>
                             <span
                                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-200 font-extralight">
-                                in der Kunst und Kultur
+                                in Kunst und Kultur
                             </span>
                         </h1>
                     </Parallax>

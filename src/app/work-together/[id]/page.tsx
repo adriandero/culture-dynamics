@@ -72,9 +72,14 @@ export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageP
                     {/* Workshop Info */}
                     <div className="space-y-6">
                         <div>
-                            <h1 className="text-3xl sm:text-4xl font-light text-black mb-4">
+                            <h1 className="text-3xl sm:text-4xl font-light text-black mb-3">
                                 {workshop.title}
                             </h1>
+                            {workshop.subtitle && (
+                                <p className="text-lg text-gray-600 font-light mb-4">
+                                    {workshop.subtitle}
+                                </p>
+                            )}
                             <div className="w-24 h-0.5 bg-red-600 rounded-full"></div>
                         </div>
 
@@ -183,25 +188,6 @@ export default async function WorkshopDetailsPage({params}: WorkshopDetailsPageP
                                     ))}
                                 </div>
                             )}
-                        </div>
-
-                        {/* What's Included */}
-                        <div>
-                            <h2 className="text-2xl font-medium text-black mb-6">Im Workshop enthalten</h2>
-                            <div className="bg-white rounded-xl border border-gray-200 p-6">
-                                <ul className="space-y-3">
-                                    {workshop.includes.map((item, index) => (
-                                        <li key={index} className="flex items-center text-gray-700">
-                                            <svg className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" fill="none"
-                                                 stroke="currentColor" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                                      d="M5 13l4 4L19 7"/>
-                                            </svg>
-                                            {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

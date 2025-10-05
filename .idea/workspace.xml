@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6083c3c-139b-43bc-808c-c2b4fbc0907a" name="Changes" comment="" />
+    <list default="true" id="f6083c3c-139b-43bc-808c-c2b4fbc0907a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work-together/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work-together/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/home/landing-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/landing-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/home/vision-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/vision-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/home/work-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/work-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/home/work-together-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/work-together-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shared/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shared/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shared/data/workshops.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shared/data/workshops.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +39,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/adrian.dero/Documents/culture-dynamics/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adrian.dero/Documents/culture-dynamics/src/features/shared/data&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,10 +52,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features/shared/data" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/projects/[id]" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/features/home" />
       <recent name="$PROJECT_DIR$/public" />
@@ -87,21 +98,12 @@
       <workItem from="1759230537975" duration="1094000" />
       <workItem from="1759353653808" duration="222000" />
       <workItem from="1759519852185" duration="764000" />
+      <workItem from="1759520630707" duration="9692000" />
+      <workItem from="1759684023957" duration="4591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/features/home/projects-section.tsx</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -6,7 +6,7 @@ import {Parallax} from "react-scroll-parallax";
 export default function VisionSection() {
     return (
         <section id="about" className="bg-white py-16 lg:py-24">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-48">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-28">
 
 
                 {/* Vision Section - Content Left, Title Right */}
@@ -60,7 +60,7 @@ export default function VisionSection() {
 
                             <div className="p-6 border border-gray-200 rounded-xl">
                                 <p className="text-lg text-gray-700 leading-relaxed font-light">
-                                    Junge Künstler:innen dieses Landes verdienen <strong className="text-red-600">Sichtbarkeit,
+                                    Junge Künstler:innen, sowie wertvolle andere professionelle Kunst dieses Landes verdienen <strong className="text-red-600">Sichtbarkeit,
                                     Relevanz und eine starke Bühne</strong> – auch international.
                                 </p>
                             </div>

@@ -6,20 +6,19 @@ const projects = [
         artisticDirection: "Nataša Mirković",
         image: "/glas-group.png",
         shortDescription: [
-            "Das Vokalensemble GLAS ist ein klangvolles Beispiel für die kulturelle Vielfalt Wiens. Die Sängerinnen – allesamt in Wien beheimatet – stammen ursprünglich aus Bosnien, Kroatien, Slowenien, Bulgarien, Ungarn, dem Iran und Österreich. Diese Internationalität spiegelt sich im Repertoire wider: GLAS widmet sich mit Leidenschaft der osteuropäischen Polyphonie, einem der ausdrucksstärksten und zugleich anspruchsvollsten Vokalschätze Europas.",
+            "Das Vokalensemble GLAS ist ein klangvolles Beispiel für die kulturelle Vielfalt Wiens. Die Sängerinnen – allesamt in Wien, Burgenland und Niederösterreich beheimatet – stammen ursprünglich aus Bosnien, Kroatien, Slowenien, Bulgarien, Ungarn, dem Iran und Österreich. Diese Internationalität spiegelt sich im Repertoire wider: GLAS widmet sich mit Leidenschaft der osteuropäischen Polyphonie, einem der ausdrucksstärksten und zugleich anspruchsvollsten Vokalschätze Europas.",
             "🎵 Für alle, die die Kraft mehrstimmigen Gesangs und kultureller Brücken erleben möchten."
         ],
         content: {
             introduction: [
-                "Im Zentrum stehen mehrstimmige Gesänge aus dem Balkanraum – musikalische Traditionen, die melodisch wie rhythmisch von außergewöhnlicher Tiefe geprägt sind. Das Programm des Ensembles führt durch eine faszinierende Klanglandschaft: von melancholischen Liedern der dalmatinischen Küste über kraftvolle bosnische Gesänge, mystische Ilahias und archaische bulgarische Heldenepen bis hin zu lebhaften, mitreißenden Rhythmen aus Mazedonien im 7/8-Takt.",
+                "Vokalensemble GLAS – „die Stimme“ in allen slawischen Sprachen – widmet sich mehrstimmigen Gesängen aus dem Balkanraum: musikalischen Traditionen von außergewöhnlicher melodischer und rhythmischer Komplexität.",
+                "Das Programm führt durch eine faszinierende Klanglandschaft: von Liebesliedern der dalmatinischen Küste über kraftvolle bosnische Gesänge, mystische Ilahias und archaische bulgarische Heldenepen bis hin zu mitreißenden 7/8-Rhythmen aus Mazedonien.",
                 "Gegründet von der Musikerin und Ensembleleiterin Nataša Mirković, verbindet GLAS traditionelle südosteuropäische Klangwelten mit zeitgenössischer Interpretation und innovativer Stimmführung. Über acht Jahre intensiver Zusammenarbeit haben aus einer Gruppe engagierter Amateurinnen ein Ensemble geformt, das heute auf einigen der renommiertesten Bühnen Österreichs zu hören ist."
             ],
             vision: "GLAS steht für musikalische Exzellenz, kulturelle Brücken und die lebendige Verbindung von Herkunft und Heimat – in einem Wien, das Vielfalt nicht nur beherbergt, sondern feiert.",
             approach: {
                 text: "Das Ensemble hat sich durch künstlerische Qualität und Authentizität einen Namen gemacht. Auftritte und Auszeichnungen zeigen die Wirkung dieser Arbeit:",
                 methods: [
-                    "Mehrstimmige osteuropäische Polyphonie mit traditionellen Techniken",
-                    "Repertoire von dalmatinischen Liedern bis zu mazedonischen 7/8-Rhythmen",
                     "Auftritte im Wiener Volkstheater, Festival Imago Dei, Glatt & Verkehrt",
                     "Konzerte im ORF Radiokulturhaus, Wean Hean Festival, Voice Mania",
                     "Goldmedaille in Bulgarien",
@@ -53,7 +52,7 @@ const projects = [
             approach: {
                 text: "Der Chor verfolgt zwei künstlerische Schwerpunkte, die das Repertoire prägen:",
                 methods: [
-                    "Neue Volksmusik aus Wien und Österreich: Weiterentwicklung des Wienerlieds, Dudeln und regionaler Musiktraditionen",
+                    "Neue Volksmusik aus Wien und Österreich: Weiterentwicklung des Wienerlieds, Dudelns und weiterer regionaler Musiktraditionen",
                     "Zusammenarbeit mit zeitgenössischen Komponist:innen aus Wien und Österreich",
                     "Moderne Interpretationen traditioneller Klangbilder",
                     "Musiktraditionen aus Südosteuropa: Polyphone Folklore aus elf Ländern der Region",

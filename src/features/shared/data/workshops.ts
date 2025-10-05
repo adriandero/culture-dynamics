@@ -16,12 +16,13 @@ const workshops = [
             approach: {
                 text: "Wir laden Musiker:innen, Lehrende, Singende und Kreative ein, eigene Lernwege zu gestalten – offen, strukturiert, experimentierfreudig und menschlich. Ob in Workshops, Lab-Formaten, digitalen Projekten oder künstlerischen Kooperationen – wir arbeiten mit:",
                 methods: [
+                    "Neuen Perspektiven auf künstlerisches Lehren und Lernen",
+                    "Erfahrungsbasiertem und reflektierendem Lernen",
+                    "Genreübergreifenden und offenen Formaten",
                     "Improvisation & Komposition als Lerninstrumente",
                     "Ausdrucksarbeit mit Stimme & Körper",
-                    "Genreübergreifenden und offenen Formaten",
-                    "Erfahrungsbasiertem und reflektierendem Lernen",
                     "Digitalen & analogen Verbindungen",
-                    "Neuen Perspektiven auf künstlerisches Lehren und Lernen"
+                    "Musikmarktforschung und Umsetzung von Karriereplanung",
                 ]
             },
             conclusion: [
@@ -37,8 +38,8 @@ const workshops = [
         instructor: "Nataša Mirković",
         image: "/work-together/sudosteuropa.png",
         shortDescription: [
-            "Polyphone Folklore-Gesänge der südosteuropäischen Länder zählen zum komplexesten musikalischen Ausdruck der europäischen Folklore – sowohl melodisch als auch rhythmisch. In diesen Workshops tauchen Sänger:innen tief in die Welt der balkanischen Mehrstimmigkeit ein.",
-            "🎵 Für Sänger:innen, die die kunstvolle Tradition südosteuropäischer Polyphonie kennenlernen und stilgerecht interpretieren möchten."
+            "Die polyphonen Folklore-Gesänge Südosteuropas zählen zu den reichhaltigsten und komplexesten musikalischen Ausdrucksformen Europas – melodisch wie rhythmisch. In unseren Workshops erleben Sänger:innen die Vielfalt und Intensität der balkanischen Mehrstimmigkeit hautnah.",
+            "Von bosnischen und serbischen Dorfgesängen über bulgarische Mehrstimmigkeit aus verschiedenen Regionen, albanische Iso-Polyphonie bis hin zu dalmatinischen „Klapen“-Liedern und Musiktradition Südslawischer Länder – der Workshop öffnet ein faszinierendes Fenster in die vielfältigen Vokaltraditionen Südosteuropas."
         ],
         content: {
             introduction: [
@@ -52,11 +53,12 @@ const workshops = [
                     "Bosnische und serbische Dorfgesänge",
                     "Bulgarische Mehrstimmigkeit aus verschiedenen Regionen",
                     "Albanische Iso-Polyphonie",
-                    "Kroatische Klappen-Lieder",
+                    "Dalmatinische „Klapen“-Lieder",
                     "Stilgerechte Stimmführung und Gesangstechnik",
                     "Musikethnologische Einblicke in die Traditionen",
                     "Praktisches Erarbeiten mehrstimmiger Gesänge",
-                    "Rhythmische und melodische Komplexität verstehen und umsetzen"
+                    "Rhythmische und melodische Komplexität verstehen und umsetzen",
+                    "Weitere Musiktraditionen aus Bosnien, Serbien, Macedonien, Kosovo, Montenegro, Griechenland, Türkei"
                 ]
             },
             conclusion: [
@@ -122,6 +124,7 @@ const workshops = [
             approach: {
                 text: "Wir arbeiten an allen Facetten einer überzeugenden musikalischen Performance:",
                 methods: [
+                    "Deine eigene künstlerische Authentizität",
                     "Kommunikation mit Band oder Ensemble",
                     "Bühnentechnik und Mikrofonhandling",
                     "Sound und eigener Klang",
@@ -135,7 +138,7 @@ const workshops = [
             },
             conclusion: [
                 "Deine Performance wird zum Erlebnis:",
-                "Authentisch, berührend und voller Bühnenpräsenz."
+                "Authentisch. Klangvoll. Mutig. Berührend."
             ]
         },
         targetAudience: "Klassik, Jazz, Pop, Rock, Folklore – erfahrene Profis und alle, die auf der Bühne stehen",

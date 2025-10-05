@@ -12,8 +12,8 @@ export default function WorkSection() {
                     <Parallax speed={2} className="lg:sticky lg:top-24">
                         <div className="text-left">
                             <h2 className="text-4xl sm:text-5xl md:text-6xl  font-light text-black leading-tight font-thin">
-                                Unsere  <span className="text-red-600">Arbeit</span>
-                                <br />
+                                Unsere <span className="text-red-600">Arbeit</span>
+                                <br/>
                                 & Schwerpunkte
                             </h2>
                             <div className="w-24 h-0.5 bg-red-600 mt-6 rounded-full"></div>
@@ -34,7 +34,8 @@ export default function WorkSection() {
                                         Förderung der österreichischen Volkskultur
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Präsentation vielfältiger kultureller und künstlerischer Ausdrucksformen, die internationale Aufmerksamkeit verdienen.
+                                        Präsentation vielfältiger kultureller und künstlerischer Ausdrucksformen, die
+                                        internationale Aufmerksamkeit verdienen.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -52,7 +53,8 @@ export default function WorkSection() {
                                         Unterstützung der Volksgruppen
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Präsentation der in Wien und Österreich lebenden Volksgruppen und ihrer oft unterrepräsentierten Perspektiven für nationale und internationale Anerkennung.
+                                        Präsentation der in Wien und Österreich lebenden Volksgruppen und ihrer oft
+                                        unterrepräsentierten Perspektiven für nationale und internationale Anerkennung.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -70,7 +72,8 @@ export default function WorkSection() {
                                         Stärkung der sprachlichen Vielfalt
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Förderung durch künstlerische Ausdrucksformen und kreative Projekte in Wien und Österreich.
+                                        Förderung durch künstlerische Ausdrucksformen und kreative Projekte in Wien und
+                                        Österreich.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -88,7 +91,8 @@ export default function WorkSection() {
                                         Hochwertige Kulturprojekte
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Realisierung von Kunst- und Kulturprojekten mit gesellschaftspolitischem Anspruch, die zum Dialog anregen.
+                                        Realisierung von Kunst- und Kulturprojekten mit gesellschaftspolitischem
+                                        Anspruch, die zum Dialog anregen.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -103,10 +107,12 @@ export default function WorkSection() {
                                 </div>
                                 <div className="timeline-end mb-0 ms-1 w-full rounded-lg p-4 pt-1">
                                     <h3 className="text-black mb-3 font-medium text-lg">
-                                        Forschung zur Diversität
+                                        Forschung zur Diversität und Integrität
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Erforschung kultureller und künstlerischer Diversität zur Schärfung des öffentlichen Bewusstseins und Erweiterung des kunstwissenschaftlichen Diskurses.
+                                        Erforschung kultureller und künstlerischer Diversität und Integrität zur
+                                        Schärfung des öffentlichen Bewusstseins und Erweiterung des
+                                        kunstwissenschaftlichen Diskurses.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -125,7 +131,8 @@ export default function WorkSection() {
                                         Workshops & Bildungsprogramme
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Angebot von Vermittlungsformen und Bildungsprogrammen, die kulturelle Teilhabe fördern und Zugänge zur Kunst schaffen.
+                                        Wir entwickeln zeitgemäße Vermittlungsformate und Bildungsprogramme, die
+                                        kulturelle Teilhabe ermöglichen und neue Zugänge zur Kunst eröffnen.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -144,7 +151,8 @@ export default function WorkSection() {
                                         Internationale Vernetzung
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Nationale und internationale Vernetzung von Kulturschaffenden zur Förderung von Austausch, Kooperation und nachhaltigen Partnerschaften.
+                                        Nationale und internationale Vernetzung von Kulturschaffenden zur Förderung von
+                                        Austausch, Kooperation und nachhaltigen Partnerschaften.
                                     </p>
                                 </div>
                                 <hr className="border-gray-200"/>
@@ -163,7 +171,8 @@ export default function WorkSection() {
                                         Förderung junger Talente
                                     </h3>
                                     <p className="text-gray-700 font-light leading-relaxed">
-                                        Gezielte Unterstützung junger Talente um die österreichische Vielfalt zu repräsentieren.
+                                        Gezielte Unterstützung junger und etablierten Künstler:innen und um die
+                                        österreichische Vielfalt zu repräsentieren.
                                     </p>
                                 </div>
                             </li>
